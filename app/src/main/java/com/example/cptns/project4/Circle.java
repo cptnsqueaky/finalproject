@@ -27,7 +27,7 @@ public class Circle extends Shape {
 
 //        int R = (int)(Math.random()*256);
 //        int G = (int)(Math.random()*256);
-//       int B= (int)(Math.random()*256);
+//        int B= (int)(Math.random()*256);
 //        paint.setColor(Color.rgb(R,G,B));
         paint.setColor(getFill());
         paint.setStyle(Paint.Style.FILL);

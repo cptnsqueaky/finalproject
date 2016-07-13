@@ -6,7 +6,6 @@ import android.graphics.Color;
 public class AbstractShapeFactory {
     private Context context;
 
-
     public Context getContext() {
         return context;
     }

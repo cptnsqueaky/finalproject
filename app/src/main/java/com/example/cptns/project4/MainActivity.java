@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     AbstractShapeFactory aSF = new AbstractShapeFactory();
     ShapeFactory shapeFactory = aSF.getShapeFactory(1); //initial shape factory
 
+    //switches between the styles
     public ShapeFactory updateShapeFactory(){
         sInt++;
         switch (sInt){

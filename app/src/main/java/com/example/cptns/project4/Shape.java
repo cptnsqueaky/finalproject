@@ -7,9 +7,9 @@ import android.view.View;
 abstract class Shape extends View{
     private int stroke, fill;
 
-    public Shape(Context context){
-        super(context);
-    }
+//    public Shape(Context context){
+//        super(context);
+//    }
 
     public Shape(Context context, int sColor, int fColor){
         super(context);
