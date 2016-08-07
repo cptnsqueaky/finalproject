@@ -1,6 +1,5 @@
 package com.example.cptns.project4;
 
-import android.content.Context;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,7 +13,7 @@ import java.util.Vector;
 
 public class MainActivity extends AppCompatActivity {
     Vector<Shape> vector=new Vector();
-    int nCirc,nRect, sType;
+    int nCirc,nRect;
     TextView status;
     String nStyle="Black & Green";
     String cStyle="Black & Yellow";

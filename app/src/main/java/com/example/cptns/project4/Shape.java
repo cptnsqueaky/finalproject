@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.view.View;
 
-abstract class Shape extends View{
+public abstract class Shape extends View{
     private int stroke, fill;
 
 //    public Shape(Context context){
