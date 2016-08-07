@@ -39,4 +39,5 @@ public abstract class Shape extends View{
     public int getStroke(){
         return stroke;
     }
+
 }
